@@ -3,9 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>第二屆天來集團 AI Demo Day 活動公告</title>
+    <title>第三屆天來集團 AI Demo Day 活動公告</title>
+    <meta name="description" content="天來集團第三屆 AI Demo Day - 展示部門 AI 導入成果，角逐總獎金 $36,000。報名截止：115 年 2 月 25 日">
+    <meta property="og:title" content="第三屆天來集團 AI Demo Day 活動公告">
+    <meta property="og:description" content="不僅是比賽，更是展現價值的舞台。報名截止：115 年 2 月 25 日">
+    <meta property="og:type" content="website">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap');
         
@@ -70,6 +81,13 @@
             color: #3b82f6; /* blue-500 */
             font-weight: bold;
         }
+
+        /* a11y: 尊重使用者動畫偏好 */
+        @media (prefers-reduced-motion: reduce) {
+            .animate-bounce {
+                animation: none;
+            }
+        }
     </style>
 </head>
 <body class="antialiased">
@@ -85,17 +103,18 @@
                     天來集團內部公告
                 </div>
                 <h1 class="text-4xl sm:text-5xl font-black mb-4 tracking-tight leading-tight">
-                    第二屆天來集團<br>
+                    第三屆天來集團<br>
                     <span class="text-yellow-300">AI Demo Day</span>
                 </h1>
                 <p class="text-xl sm:text-2xl text-blue-100 font-light mb-8">
-                    不僅是比賽，更是展現價值的舞台 🚀
+                    不僅是比賽，更是展現價值的舞台 <span aria-hidden="true">🚀</span>
                 </p>
                 
-                <a href="https://forms.gle/3RkwbEAEUMkDNk96A" target="_blank" class="inline-block bg-yellow-400 hover:bg-yellow-300 text-blue-900 font-bold py-4 px-10 rounded-full shadow-lg transform transition hover:-translate-y-1 hover:scale-105 text-lg border-2 border-yellow-500">
-                    <i class="fas fa-rocket mr-2"></i> 立即報名參賽
+                <a href="https://forms.gle/3RkwbEAEUMkDNk96A" target="_blank" rel="noopener noreferrer" class="inline-block bg-yellow-400 hover:bg-yellow-300 text-blue-900 font-bold py-4 px-10 rounded-full shadow-lg transform transition hover:-translate-y-1 hover:scale-105 text-lg border-2 border-yellow-500">
+                    <i class="fas fa-rocket mr-2" aria-hidden="true"></i> 立即報名參賽
                 </a>
-                <p class="mt-4 text-base text-blue-200">報名截止：114年11月28日（五）18:00</p>
+                <!-- [DATE] 報名截止日 -->
+                <p class="mt-4 text-base text-blue-200">報名截止：115 年 2 月 25 日（二）18:00</p>
             </div>
         </header>
 
@@ -103,20 +122,21 @@
         <div class="bg-gray-50 border-b border-gray-200 p-6 flex flex-wrap justify-center gap-8 text-center sm:text-left">
             <div class="flex items-center justify-center sm:justify-start">
                 <div class="w-14 h-14 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center mr-4 shrink-0">
-                    <i class="far fa-calendar-alt text-2xl"></i>
+                    <i class="far fa-calendar-alt text-2xl" aria-hidden="true"></i>
                 </div>
                 <div>
                     <p class="text-sm text-gray-500 font-bold uppercase tracking-wide">活動時間</p>
-                    <p class="font-bold text-gray-800 text-lg">114年12月23日（二）<br>13:00 - 17:00</p>
+                    <!-- [DATE] 活動日期 -->
+                    <p class="font-bold text-gray-800 text-lg">115 年 3 月 24 日（一）<br>09:30 - 12:30</p>
                 </div>
             </div>
             <div class="flex items-center justify-center sm:justify-start">
                 <div class="w-14 h-14 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center mr-4 shrink-0">
-                    <i class="fas fa-map-marker-alt text-2xl"></i>
+                    <i class="fas fa-map-marker-alt text-2xl" aria-hidden="true"></i>
                 </div>
                 <div>
                     <p class="text-sm text-gray-500 font-bold uppercase tracking-wide">活動地點</p>
-                    <p class="font-bold text-gray-800 text-lg">新竹市香山區<br>茄苳景觀大道252-18號</p>
+                    <p class="font-bold text-gray-800 text-lg">新竹市香山區<br>茄苳景觀大道 F park R101</p>
                 </div>
             </div>
         </div>
@@ -132,21 +152,21 @@
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div class="bg-white p-8 rounded-2xl border border-gray-100 shadow-lg hover:shadow-xl transition text-center group">
                         <div class="w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-blue-600 transition-colors duration-300">
-                            <i class="fas fa-lightbulb text-2xl text-blue-600 group-hover:text-white transition-colors duration-300"></i>
+                            <i class="fas fa-lightbulb text-2xl text-blue-600 group-hover:text-white transition-colors duration-300" aria-hidden="true"></i>
                         </div>
                         <h3 class="font-bold text-xl mb-3 text-gray-800">檢視成果</h3>
                         <p class="text-gray-600">展示部門 AI 導入的實際應用案例，讓努力被看見。</p>
                     </div>
                     <div class="bg-white p-8 rounded-2xl border border-gray-100 shadow-lg hover:shadow-xl transition text-center group">
                         <div class="w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-blue-600 transition-colors duration-300">
-                            <i class="fas fa-cogs text-2xl text-blue-600 group-hover:text-white transition-colors duration-300"></i>
+                            <i class="fas fa-cogs text-2xl text-blue-600 group-hover:text-white transition-colors duration-300" aria-hidden="true"></i>
                         </div>
                         <h3 class="font-bold text-xl mb-3 text-gray-800">推動流程思維</h3>
                         <p class="text-gray-600">將 AI 工具融入工作流程 (DAO)，建立可複製的高效模式。</p>
                     </div>
                     <div class="bg-white p-8 rounded-2xl border border-gray-100 shadow-lg hover:shadow-xl transition text-center group">
                         <div class="w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-blue-600 transition-colors duration-300">
-                            <i class="fas fa-users text-2xl text-blue-600 group-hover:text-white transition-colors duration-300"></i>
+                            <i class="fas fa-users text-2xl text-blue-600 group-hover:text-white transition-colors duration-300" aria-hidden="true"></i>
                         </div>
                         <h3 class="font-bold text-xl mb-3 text-gray-800">跨域交流學習</h3>
                         <p class="text-gray-600">促進團隊間的經驗分享，這是企業 AI 成長的成果展。</p>
@@ -157,7 +177,7 @@
             <!-- Section 2: Prizes -->
             <section class="bg-gradient-to-b from-blue-50 to-white rounded-3xl p-10 border border-blue-100">
                 <div class="text-center mb-10">
-                    <h2 class="text-3xl font-bold text-gray-800">🏆 榮耀與獎勵</h2>
+                    <h2 class="text-3xl font-bold text-gray-800"><span aria-hidden="true">🏆</span> 榮耀與獎勵</h2>
                     <p class="text-gray-600 mt-3 text-lg">除了獎金，更是展現團隊實力的最佳機會！</p>
                 </div>
                 <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 text-center items-end max-w-4xl mx-auto">
@@ -165,10 +185,10 @@
                     <div class="order-2 sm:order-1">
                         <div class="prize-silver rounded-t-xl p-5 shadow-md relative z-0">
                             <p class="text-xl font-bold">第二名</p>
-                            <i class="fas fa-medal text-4xl my-3"></i>
+                            <i class="fas fa-medal text-4xl my-3" aria-hidden="true"></i>
                         </div>
                         <div class="bg-white p-6 rounded-b-xl shadow-lg border border-gray-200">
-                            <p class="text-3xl font-black text-gray-700">$10,000</p>
+                            <p class="text-3xl font-black text-gray-700">$10000</p>
                         </div>
                     </div>
                     <!-- 1st Place -->
@@ -176,20 +196,20 @@
                         <div class="prize-gold rounded-t-xl p-8 relative overflow-hidden shadow-lg">
                             <div class="absolute top-0 right-0 -mt-2 -mr-2 w-16 h-16 bg-white/30 transform rotate-45"></div>
                             <p class="text-2xl font-bold">第一名</p>
-                            <i class="fas fa-crown text-5xl my-4 animate-bounce"></i>
+                            <i class="fas fa-crown text-5xl my-4 animate-bounce" aria-hidden="true"></i>
                         </div>
                         <div class="bg-white p-8 rounded-b-xl shadow-xl border border-gray-200">
-                            <p class="text-5xl font-black gradient-text">$20,000</p>
+                            <p class="text-5xl font-black gradient-text">$20000</p>
                         </div>
                     </div>
                     <!-- 3rd Place -->
                     <div class="order-3">
                         <div class="prize-bronze rounded-t-xl p-5 shadow-md relative z-0">
                             <p class="text-xl font-bold">第三名</p>
-                            <i class="fas fa-medal text-4xl my-3"></i>
+                            <i class="fas fa-medal text-4xl my-3" aria-hidden="true"></i>
                         </div>
                         <div class="bg-white p-6 rounded-b-xl shadow-lg border border-gray-200">
-                            <p class="text-3xl font-black text-gray-700">$6,000</p>
+                            <p class="text-3xl font-black text-gray-700">$6000</p>
                         </div>
                     </div>
                 </div>
@@ -206,7 +226,7 @@
                     </h2>
                     
                     <div class="mb-6 flex items-center bg-blue-50 px-5 py-3 rounded-lg text-blue-800 font-medium border border-blue-100">
-                        <i class="far fa-clock text-xl mr-3"></i>
+                        <i class="far fa-clock text-xl mr-3" aria-hidden="true"></i>
                         <span>每組報告時間：<strong class="text-xl">6 ~ 8 分鐘</strong></span>
                     </div>
                     
@@ -222,7 +242,7 @@
                         </li>
                         <li class="pl-4 border-l-4 border-blue-600 bg-blue-50/60 p-3 rounded-r-lg -ml-0.5">
                             <strong class="block text-lg text-blue-900">3. AI應用說明及技術架構 (含DAO流程)</strong>
-                            <p class="text-base text-gray-800 mt-1">請呈現解決問題的DAO流程，說明AI 在流程中的角色、使用工具、技術邏輯。</p>
+                            <p class="text-base text-gray-800 mt-1">請呈現解決問題的 DAO 流程，說明 AI 在流程中的角色、使用工具、技術邏輯。</p>
                         </li>
                         <li class="pl-4 border-l-4 border-gray-300">
                             <strong class="block text-lg text-gray-800">4. 成果展示</strong>
@@ -239,156 +259,112 @@
                     </ul>
                 </div>
 
-                <!-- Right: Scoring (評分標準 - 完整版) -->
+                <!-- Right: Scoring (評分標準) -->
                 <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-200 h-full">
                     <h2 class="text-2xl font-bold text-gray-800 mb-6 flex items-center pb-4 border-b border-gray-100">
                         <span class="bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center text-lg mr-3 shrink-0 shadow-md">2</span>
-                        評分標準與詳細指標
+                        評分標準
                     </h2>
-                    
-                    <!-- 評分來源 -->
-                    <div class="grid grid-cols-3 gap-3 mb-8 text-center">
-                        <div class="bg-gray-50 p-3 rounded-xl border border-gray-200 flex flex-col justify-center">
-                            <span class="text-gray-500 text-sm font-bold mb-1">現場簡報</span>
-                            <span class="text-blue-600 text-2xl font-black">75%</span>
+
+                    <!-- 計分來源 -->
+                    <div class="grid grid-cols-2 gap-3 mb-8 text-center">
+                        <div class="bg-blue-50 p-4 rounded-xl border border-blue-200 flex flex-col justify-center">
+                            <span class="text-blue-700 text-sm font-bold mb-1"><i class="fas fa-chalkboard-teacher mr-1" aria-hidden="true"></i>簡報</span>
+                            <span class="text-blue-600 text-2xl font-black">40%</span>
                         </div>
-                        <div class="bg-gray-50 p-3 rounded-xl border border-gray-200 flex flex-col justify-center">
-                            <span class="text-gray-500 text-sm font-bold mb-1">書面審查</span>
-                            <span class="text-blue-600 text-2xl font-black">15%</span>
+                        <div class="bg-gray-50 p-4 rounded-xl border border-gray-200 flex flex-col justify-center">
+                            <span class="text-gray-500 text-sm font-bold mb-1"><i class="fas fa-file-alt mr-1" aria-hidden="true"></i>書審</span>
+                            <span class="text-blue-600 text-2xl font-black">30%</span>
                         </div>
-                        <div class="bg-purple-50 p-3 rounded-xl border border-purple-200 flex flex-col justify-center">
-                            <span class="text-purple-600 text-sm font-bold mb-1"><i class="fas fa-robot mr-1"></i>AI評審</span>
-                            <span class="text-purple-700 text-2xl font-black">10%</span>
+                        <div class="bg-yellow-50 p-4 rounded-xl border border-yellow-200 flex flex-col justify-center">
+                            <span class="text-yellow-700 text-sm font-bold mb-1"><i class="fas fa-clipboard-check mr-1" aria-hidden="true"></i>資料完整性</span>
+                            <span class="text-blue-600 text-2xl font-black">10%</span>
+                        </div>
+                        <div class="bg-green-50 p-4 rounded-xl border border-green-200 flex flex-col justify-center">
+                            <span class="text-green-700 text-sm font-bold mb-1"><i class="fas fa-vote-yea mr-1" aria-hidden="true"></i>投票分</span>
+                            <span class="text-blue-600 text-2xl font-black">20%</span>
                         </div>
                     </div>
 
-                    <!-- AI 推進團加分說明（加在總分上） -->
-                    <div class="mb-8 bg-yellow-50 border border-yellow-300 rounded-xl p-4">
-                        <p class="text-sm text-yellow-800 font-semibold mb-1">AI 推進團加分</p>
+                    <!-- 投票說明 -->
+                    <div class="mb-6 bg-green-50 border border-green-200 rounded-xl p-4">
+                        <p class="text-sm text-green-800 font-semibold mb-1"><i class="fas fa-users mr-1" aria-hidden="true"></i>現場觀眾投票</p>
                         <p class="text-sm text-gray-700 leading-relaxed">
-                            最終總分 = 現場簡報（75%）＋書面審查（15%）＋AI 評審（10%）＋
-                            <span class="font-bold text-yellow-800">AI 推進團加分（最高 +5 分）</span>。
+                            投票分 20% 由當天現場觀眾投票決定，每位觀眾皆可為心目中的最佳方案投票。
                         </p>
                     </div>
 
-                    <!-- 詳細指標列表 -->
-                    <div class="space-y-8">
-                        
-                        <!-- Item 1 -->
-                        <div class="border-b border-gray-100 pb-5 last:border-0 last:pb-0">
-                            <div class="flex justify-between items-center mb-3">
-                                <h4 class="font-bold text-gray-800 text-xl">AI 解決方案與技術可行性</h4>
-                                <span class="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-bold shadow">40%</span>
-                            </div>
-                            <p class="text-base text-gray-600 mb-3 font-medium bg-gray-50 p-2 rounded">是否清楚分析DAO流程？AI 解決方案是否真正能為企業創造價值？</p>
-                            <ul class="text-base text-gray-600 space-y-1 pl-1">
-                                <li class="custom-list-item">應用DAO方法學</li>
-                                <li class="custom-list-item">方案能對應痛點</li>
-                                <li class="custom-list-item">AI 使用方式合理、有意義</li>
-                                <li class="custom-list-item">價值邏輯清晰可驗證</li>
-                            </ul>
-                        </div>
-
-                        <!-- Item 2 -->
-                        <div class="border-b border-gray-100 pb-5 last:border-0 last:pb-0">
-                            <div class="flex justify-between items-center mb-3">
-                                <h4 class="font-bold text-gray-800 text-xl">成效數據與可量化成果</h4>
-                                <span class="bg-green-600 text-white px-3 py-1 rounded-full text-sm font-bold shadow">30%</span>
-                            </div>
-                            <p class="text-base text-gray-600 mb-3 font-medium bg-gray-50 p-2 rounded">是否展示可量化成果？明確比較導入前後差異？具備：降本／增效／新商模？</p>
-                            <ul class="text-base text-gray-600 space-y-1 pl-1">
-                                <li class="custom-list-item">有清楚標示價值類型：降本／增效／新商模</li>
-                                <li class="custom-list-item">有量化數據（時間／人力／錯誤率／成本）</li>
-                                <li class="custom-list-item">有前後比較，數據可信、來源清楚</li>
-                            </ul>
-                        </div>
-
-                        <!-- Item 3 -->
-                        <div class="border-b border-gray-100 pb-5 last:border-0 last:pb-0">
-                            <div class="flex justify-between items-center mb-3">
-                                <h4 class="font-bold text-gray-800 text-xl">問題定義與企業痛點清楚度</h4>
-                                <span class="bg-yellow-500 text-white px-3 py-1 rounded-full text-sm font-bold shadow">10%</span>
-                            </div>
-                            <p class="text-base text-gray-600 mb-3 font-medium bg-gray-50 p-2 rounded">是否清楚說明企業真實問題？聚焦流程、時間、人力、成本或錯誤率？</p>
-                            <ul class="text-base text-gray-600 space-y-1 pl-1">
-                                <li class="custom-list-item">問題描述具體、不空泛</li>
-                                <li class="custom-list-item">痛點與日常業務直接相關，說明現行流程瓶頸</li>
-                                <li class="custom-list-item">痛點具導入 AI 的必要性</li>
-                            </ul>
-                        </div>
-
-                         <!-- Item 4 -->
-                         <div class="border-b border-gray-100 pb-5 last:border-0 last:pb-0">
-                            <div class="flex justify-between items-center mb-3">
-                                <h4 class="font-bold text-gray-800 text-xl">方案展示與驗證 (Demo)</h4>
-                                <span class="bg-indigo-500 text-white px-3 py-1 rounded-full text-sm font-bold shadow">10%</span>
-                            </div>
-                            <p class="text-base text-gray-600 mb-3 font-medium bg-gray-50 p-2 rounded">是否提供實際操作畫面？方案是否確實可運作而非概念？</p>
-                            <ul class="text-base text-gray-600 space-y-1 pl-1">
-                                <li class="custom-list-item">Demo 清楚可辨識，有流程操作畫面或影片</li>
-                                <li class="custom-list-item">展示內容可支持成果</li>
-                                <li class="custom-list-item">方案已實作完成而非紙上提案</li>
-                            </ul>
-                        </div>
-
-                        <!-- Item 5 -->
-                        <div class="border-b border-gray-100 pb-5 last:border-0 last:pb-0">
-                            <div class="flex justify-between items-center mb-3">
-                                <h4 class="font-bold text-gray-800 text-xl">未來發展延伸性</h4>
-                                <span class="bg-pink-500 text-white px-3 py-1 rounded-full text-sm font-bold shadow">10%</span>
-                            </div>
-                            <p class="text-base text-gray-600 mb-3 font-medium bg-gray-50 p-2 rounded">評估方案是否具有長期價值，包括跨部門推廣性、可複製性或商品化潛力。</p>
-                            <ul class="text-base text-gray-600 space-y-1 pl-1">
-                                <li class="custom-list-item">是否能擴散至集團其他部門使用</li>
-                                <li class="custom-list-item">是否具可複製的 SOP、能成為集團標準化流程</li>
-                                <li class="custom-list-item">是否能再開發、再進化、具市場價值</li>
-                            </ul>
-                        </div>
-
+                    <!-- AI 評審說明 -->
+                    <div class="bg-purple-50 border border-purple-200 rounded-xl p-4">
+                        <p class="text-sm text-purple-800 font-semibold mb-1"><i class="fas fa-robot mr-1" aria-hidden="true"></i>AI 評審</p>
+                        <p class="text-sm text-gray-700 leading-relaxed">
+                            本屆設有一名 <strong class="text-purple-700">AI 評審</strong>，其評分權重與每位人類評審等值，共同參與簡報及書審計分。
+                        </p>
                     </div>
                 </div>
             </section>
 
-            <!-- Section: AI 推進團加分制度（總分額外加分 + 參賽資格） -->
-            <section class="bg-yellow-50 border border-yellow-200 p-10 rounded-2xl shadow-lg">
+            <!-- Section: 技轉機制 -->
+            <section class="bg-green-50 border border-green-200 p-10 rounded-2xl shadow-lg">
                 <h2 class="text-2xl font-bold text-gray-800 mb-6 flex items-center">
-                    <span class="bg-yellow-500 text-white w-10 h-10 rounded-full flex items-center justify-center text-lg mr-3 shrink-0 shadow-md">＋</span>
-                    AI 推進團參與加分制度
+                    <span class="bg-green-600 text-white w-10 h-10 rounded-full flex items-center justify-center text-lg mr-3 shrink-0 shadow-md" aria-hidden="true">
+                        <i class="fas fa-exchange-alt"></i>
+                    </span>
+                    技轉機制
                 </h2>
 
                 <p class="text-gray-700 text-base mb-6 leading-relaxed">
-                    為鼓勵同仁加入 <strong>AI 推進團</strong> 並持續精進 AI 能力，本次 AI Demo Day 將針對團隊成員的 AI 等級給予
-                    <span class="font-bold text-yellow-800">額外加分，直接加在最終總分上</span>。
+                    比賽結束後，所有參賽方案皆可由集團內其他部門提出<strong>技術轉移申請</strong>，將優秀的 AI 方案落地到更多場景，
+                    <span class="font-bold text-green-800">讓好的解決方案發揮最大價值</span>。
                 </p>
 
-                <!-- 新增：參賽資格說明（必須為 AI 推進團團員） -->
-                <div class="mb-6 bg-blue-50 border border-blue-200 rounded-xl p-4 flex items-start gap-3">
-                    <i class="fas fa-user-check mt-1 text-blue-600"></i>
+                <!-- 重要：前三名獎金與技轉綁定 -->
+                <div class="mb-6 bg-red-50 border border-red-200 rounded-xl p-4 flex items-start gap-3">
+                    <i class="fas fa-exclamation-triangle mt-1 text-red-600" aria-hidden="true"></i>
                     <p class="text-gray-800 text-base leading-relaxed">
-                        <strong>參賽資格說明：</strong>本次參賽之<strong>所有團隊成員</strong>，皆需先加入「<strong>AI 推進團</strong>」成為團員，方可參與比賽並適用相關加分制度。
+                        <strong class="text-red-700">重要：</strong>前三名得獎隊伍須於 <strong>115 年 4 月 2 日前</strong>完成技轉稽核，方可領取比賽獎金。
                     </p>
                 </div>
 
-                <div class="bg-white border border-yellow-300 rounded-xl p-6 shadow-sm mb-6">
+                <!-- 技轉流程 -->
+                <h3 class="font-bold text-lg text-gray-800 mb-4">技轉流程</h3>
+                <div class="bg-white border border-green-300 rounded-xl p-6 shadow-sm mb-6">
+                    <div class="flex flex-col sm:flex-row items-start sm:items-center justify-center gap-4 text-gray-800 text-base">
+                        <div class="flex items-center gap-2">
+                            <span class="bg-green-600 text-white w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold shrink-0">1</span>
+                            <span class="font-medium">部門提出申請</span>
+                        </div>
+                        <i class="fas fa-arrow-right text-green-400 hidden sm:block" aria-hidden="true"></i>
+                        <div class="flex items-center gap-2">
+                            <span class="bg-green-600 text-white w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold shrink-0">2</span>
+                            <span class="font-medium">技術移轉執行</span>
+                        </div>
+                        <i class="fas fa-arrow-right text-green-400 hidden sm:block" aria-hidden="true"></i>
+                        <div class="flex items-center gap-2">
+                            <span class="bg-green-600 text-white w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold shrink-0">3</span>
+                            <span class="font-medium">稽核確認採用</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 技轉獎勵 -->
+                <div class="bg-white border border-green-300 rounded-xl p-6 shadow-sm mb-6">
                     <ul class="space-y-4 text-gray-800 text-lg">
                         <li class="custom-list-item">
-                            每位 <strong class="text-yellow-700">Level 1</strong> 團員：<strong>＋0.5 分</strong>
+                            技轉成功定義：申請部門<strong class="text-green-700">實際採用並運作</strong>該方案
                         </li>
                         <li class="custom-list-item">
-                            每位 <strong class="text-yellow-700">Level 2</strong> 團員：<strong>＋1 分</strong>
-                        </li>
-			<li class="custom-list-item">
-                            每位 <strong class="text-yellow-700">Level 3</strong> 團員：<strong>＋1.5 分</strong>
+                            技轉成功的隊伍可獲得<strong class="text-green-700">額外技轉獎金</strong>（金額另行公告）
                         </li>
                         <li class="custom-list-item text-red-700 font-bold">
-                            單一團隊加分上限：<strong>＋5 分（加在總分上）</strong>
+                            前三名得獎隊伍須技轉成功，始得領取比賽獎金
                         </li>
                     </ul>
                 </div>
 
                 <p class="text-gray-600 text-base leading-relaxed">
-                    此加分制度的設計目的，在於讓「專案成果」與「團隊學習投入」一起被看見。<br>
-                    也鼓勵各部門在準備提案的同時，邀請Level 1以上推進團成員加入團隊，提升整體 AI 實作與協作能力，成為部門長期的數位資產。
+                    技轉機制的目的，在於讓比賽成果不只停留在展示層面，而是真正落地到集團各部門日常運作中，<br>
+                    鼓勵跨部門協作，將 AI 方案轉化為可持續運行的數位資產。
                 </p>
             </section>
 
@@ -398,55 +374,64 @@
                 <div class="absolute top-0 right-0 -mt-10 -mr-10 w-40 h-40 bg-white/5 rounded-full blur-3xl"></div>
                 <div class="absolute bottom-0 left-0 -mb-10 -ml-10 w-40 h-40 bg-blue-500/10 rounded-full blur-3xl"></div>
 
-                <h2 class="text-center text-3xl font-bold mb-12 relative z-10">📅 重要時程</h2>
+                <h2 class="text-center text-3xl font-bold mb-12 relative z-10"><span aria-hidden="true">📅</span> 重要時程</h2>
                 
                 <div class="flex flex-col md:flex-row justify-between items-center space-y-10 md:space-y-0 relative z-10 px-4 md:px-12">
                     <!-- Line connector for desktop -->
                     <div class="hidden md:block absolute top-1/3 left-0 w-full h-1 bg-gray-600 -z-10 transform -translate-y-1/2 mx-auto" style="width: 80%; left: 10%;"></div>
                     
-                    <!-- Step 1 -->
+                    <!-- [DATE] Step 1: 報名截止 -->
                     <div class="text-center group">
                         <div class="w-20 h-20 bg-red-500 rounded-full flex items-center justify-center text-3xl font-bold mx-auto mb-4 shadow-lg shadow-red-500/30 transform group-hover:scale-110 transition-transform duration-300 ring-4 ring-gray-700">
-                            28
+                            25
                         </div>
-                        <p class="text-red-400 font-bold text-xl">11月</p>
+                        <p class="text-red-400 font-bold text-xl">2 月</p>
                         <p class="text-base text-gray-300">18:00 報名截止</p>
                     </div>
 
-                    <!-- Step 2 -->
+                    <!-- [DATE] Step 2: 上傳簡報 -->
                     <div class="text-center group">
                         <div class="w-20 h-20 bg-blue-500 rounded-full flex items-center justify-center text-3xl font-bold mx-auto mb-4 shadow-lg shadow-blue-500/30 transform group-hover:scale-110 transition-transform duration-300 ring-4 ring-gray-700">
                             17
                         </div>
-                        <p class="text-blue-400 font-bold text-xl">12月</p>
+                        <p class="text-blue-400 font-bold text-xl">3 月</p>
                         <p class="text-base text-gray-300">18:00 上傳簡報</p>
                     </div>
 
-                    <!-- Step 3 -->
+                    <!-- [DATE] Step 3: Demo Day -->
                     <div class="text-center group">
                         <div class="w-20 h-20 bg-yellow-400 rounded-full flex items-center justify-center text-3xl font-bold mx-auto mb-4 text-gray-900 shadow-lg shadow-yellow-400/30 transform group-hover:scale-110 transition-transform duration-300 ring-4 ring-gray-700">
-                            23
+                            24
                         </div>
-                        <p class="text-yellow-400 font-bold text-xl">12月</p>
+                        <p class="text-yellow-400 font-bold text-xl">3 月</p>
                         <p class="text-base font-bold text-white">Demo Day</p>
+                    </div>
+
+                    <!-- [DATE] Step 4: 技轉稽核 -->
+                    <div class="text-center group">
+                        <div class="w-20 h-20 bg-green-500 rounded-full flex items-center justify-center text-3xl font-bold mx-auto mb-4 shadow-lg shadow-green-500/30 transform group-hover:scale-110 transition-transform duration-300 ring-4 ring-gray-700">
+                            2
+                        </div>
+                        <p class="text-green-400 font-bold text-xl">4 月</p>
+                        <p class="text-base text-gray-300">技轉稽核完畢</p>
                     </div>
                 </div>
                 
                  <div class="mt-12 pt-8 border-t border-gray-700 text-base text-gray-300 text-center bg-gray-800/50 rounded-xl p-4">
                     <p>檔案 (PPT) 請上傳至指定 Google Drive 資料夾：<br>
-                    <a href="https://drive.google.com/drive/folders/11LuIjMEjfNhLze7qba06zFNyfzQlWSBn?usp=sharing" target="_blank" class="font-mono text-yellow-400 bg-gray-900 px-3 py-2 rounded-lg mt-2 inline-block hover:bg-yellow-400 hover:text-gray-900 transition-all duration-300 border border-yellow-400/30 hover:border-yellow-400 group">
-                        <i class="fab fa-google-drive mr-2"></i>03_參賽者簡報上傳區 <i class="fas fa-external-link-alt text-xs ml-1 opacity-50 group-hover:opacity-100 transition-opacity"></i>
-                    </a> 
-                    <span class="text-sm ml-2.opacity-75 block sm:inline mt-2 sm:mt-0">(檔名：公司_部門_主題名稱)</span></p>
+                    <a href="https://drive.google.com/drive/folders/11LuIjMEjfNhLze7qba06zFNyfzQlWSBn?usp=sharing" target="_blank" rel="noopener noreferrer" class="font-mono text-yellow-400 bg-gray-900 px-3 py-2 rounded-lg mt-2 inline-block hover:bg-yellow-400 hover:text-gray-900 transition-all duration-300 border border-yellow-400/30 hover:border-yellow-400 group">
+                        <i class="fab fa-google-drive mr-2" aria-hidden="true"></i>03_參賽者簡報上傳區 <i class="fas fa-external-link-alt text-xs ml-1 opacity-50 group-hover:opacity-100 transition-opacity" aria-hidden="true"></i>
+                    </a>
+                    <span class="text-sm ml-2 opacity-75 block sm:inline mt-2 sm:mt-0">(檔名：公司_部門_主題名稱)</span></p>
                 </div>
             </section>
 
             <!-- CTA Footer -->
             <div class="text-center space-y-8 py-10">
-                <h3 class="text-3萬 font-bold text-gray-800">準備好展示你的 AI 成果了嗎？</h3>
-                <a href="https://forms.gle/3RkwbEAEUMkDNk96A" target="_blank" class="inline-flex items-center justify-center px-10 py-5 text-xl font-bold text-white transition-all.duration-200 bg-blue-600 rounded-full hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300.shadow-xl hover:shadow-2xl transform hover:-translate-y-1">
+                <h3 class="text-3xl font-bold text-gray-800">準備好展示你的 AI 成果了嗎？</h3>
+                <a href="https://forms.gle/3RkwbEAEUMkDNk96A" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-10 py-5 text-xl font-bold text-white transition-all duration-200 bg-blue-600 rounded-full hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300 shadow-xl hover:shadow-2xl transform hover:-translate-y-1">
                     立即填寫報名表
-                    <i class="fas fa-arrow-right ml-3"></i>
+                    <i class="fas fa-arrow-right ml-3" aria-hidden="true"></i>
                 </a>
                 <p class="text-gray-500 text-base">如有疑問，請聯繫活動籌備小組</p>
             </div>
@@ -455,7 +440,7 @@
         
         <!-- Footer -->
         <footer class="bg-gray-100 p-8 text-center text-gray-500 text-sm border-t">
-            &copy; 114 天來集團AI推進團
+            &copy; 114 天來集團 AI 推進團
         </footer>
 
     </div>
